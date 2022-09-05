@@ -49,6 +49,25 @@ template.innerHTML = `<vaadin-iconset name="teccicons" size="24">
     </g>
 </svg>
 </g>
+    <g id="teccicons:spd"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.0556267,0,0,0.0466409,1.01422,0.507905)">
+        <rect x="-18.233" y="-11.056" width="431.447" height="514.569" style="fill:rgb(227,0,15);"/>
+    </g>
+    <g transform="matrix(0.0410534,0,0,0.04108,2.57346,5.29968)">
+        <g transform="matrix(1,0,0,0.797106,0,254.676)">
+            <path d="M108.7,151.1C95.4,161.6 77.6,166.9 60.5,166.9C39.1,166.9 17.9,161.7 0,147.1L19.8,113.9C30.8,122.9 43.9,131.2 59,131.2C69.4,131.2 79.5,128.1 79.5,117C79.5,105.4 63.1,104.8 53.6,102.4C33.1,97.1 7.6,90.2 7.6,53.2C7.6,21 32.2,0 66.2,0C83.3,0 105.1,7.9 120.2,15.9L101.4,47.2C92.7,41.6 78.7,38.3 72.1,38.3C64,38.3 53.6,40.6 53.6,49.4C53.6,58.7 63.9,60.4 73.2,62.9C73.2,62.9 84.7,65.4 89.5,67C110.6,73.9 126.3,81.3 126.3,109.4C126.3,125.1 122.2,140.4 108.7,151.1" style="fill:white;fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1,0,0,0.797106,0,254.676)">
+            <path d="M207.4,3.2L137.1,3.2L137.1,162.1L182.4,162.1L182.4,109.7L205.4,109.7C245.4,109.7 258.4,86.7 258.4,55.6C258.4,32.5 247.8,3.2 207.4,3.2ZM185.8,74.9L182.3,74.9L182.3,37.8L185.8,37.8C201.9,37.8 215.6,37.8 215.6,56.4C215.6,75.8 200.8,74.9 185.8,74.9Z" style="fill:white;fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1,0,0,0.797106,0,254.676)">
+            <path d="M335.5,3.8L268.4,3.8L268.4,162.7L335.5,162.7C379.4,162.7 406.5,127.6 406.5,83C406.5,38.4 379.6,3.8 335.5,3.8ZM318.1,125.7L313.2,125.7L313.2,40.9L318.5,40.9C345,40.9 361.1,58.2 361.1,82.5C361.1,111.3 342.7,125.7 318.1,125.7Z" style="fill:white;fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>
+</g>
   </defs></svg>
 </vaadin-iconset>`;
 

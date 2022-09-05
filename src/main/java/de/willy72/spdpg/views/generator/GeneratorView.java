@@ -2,6 +2,8 @@ package de.willy72.spdpg.views.generator;
 
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.cookieconsent.CookieConsent;
+import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.textfield.TextField;
@@ -31,5 +33,5 @@ public class GeneratorView extends HorizontalLayout {
 
         add(name, sayHello);
     }
-
 }
+

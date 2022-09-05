@@ -5,10 +5,10 @@ import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
 import com.vaadin.flow.component.button.ButtonVariant;
-import com.vaadin.flow.component.html.Footer;
-import com.vaadin.flow.component.html.H1;
-import com.vaadin.flow.component.html.H2;
-import com.vaadin.flow.component.html.Header;
+import com.vaadin.flow.component.html.*;
+import com.vaadin.flow.component.icon.Icon;
+import com.vaadin.flow.component.orderedlayout.FlexComponent;
+import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.router.PageTitle;
 import de.willy72.spdpg.components.appnav.AppNav;
 import de.willy72.spdpg.components.appnav.AppNavItem;
@@ -45,7 +45,13 @@ public class MainLayout extends AppLayout {
     }
 
     private Component createDrawerContent() {
-        H2 appName = new H2("willy72.de");
+        HorizontalLayout appName = new HorizontalLayout();
+        Icon spdLogo = Teccicons.SPD.create();
+        appName.add(spdLogo);
+        H6 spdlogoHeadline = new H6("PASSWORT GENERATOR");
+        spdlogoHeadline.addClassNames("spd-logo");
+        appName.add(spdlogoHeadline);
+        appName.setDefaultVerticalComponentAlignment(FlexComponent.Alignment.CENTER);
         appName.addClassNames("app-name");
 
         com.vaadin.flow.component.html.Section section = new com.vaadin.flow.component.html.Section(appName,

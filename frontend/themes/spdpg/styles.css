@@ -16,5 +16,11 @@ html {
     --lumo-success-color: hsl(145, 60%, 35%);
 }
 
+.spd-logo {
+    margin-left: -0.5em;
+    margin-top: 0.2em;
+    color: #E3000F;
+}
+
 [theme~="dark"] {
 }

@@ -6,7 +6,7 @@ import java.util.Locale;
 
 @JsModule("./icons/teccicons.js")
 public enum Teccicons implements IconFactory {
-    GENERATOR, HILFE, IMPRESSUM;
+    GENERATOR, HILFE, IMPRESSUM, SPD;
 
     public Icon create() {
         return new Icon(this.name().toLowerCase(Locale.ENGLISH).replace('_', '-').replaceAll("^-", ""));
