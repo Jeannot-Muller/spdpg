@@ -1,2 +1,20 @@
 @import url('./main-layout.css');
 @import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+
+html {
+    --lumo-primary-text-color: rgb(152, 2, 103);
+    --lumo-primary-color-50pct: rgba(152, 2, 103, 0.5);
+    --lumo-primary-color-10pct: rgba(152, 2, 103, 0.1);
+    --lumo-primary-color: rgb(152,2,103);
+    --lumo-error-text-color: rgb(182, 28, 62);
+    --lumo-error-color-50pct: rgba(182, 28, 62, 0.5);
+    --lumo-error-color-10pct: rgba(182, 28, 62, 0.1);
+    --lumo-error-color: rgb(182,28,62);
+    --lumo-success-text-color: rgb(36, 143, 80);
+    --lumo-success-color-50pct: rgba(36, 143, 80, 0.5);
+    --lumo-success-color-10pct: rgba(36, 143, 80, 0.1);
+    --lumo-success-color: hsl(145, 60%, 35%);
+}
+
+[theme~="dark"] {
+}

@@ -12,6 +12,7 @@ import com.vaadin.flow.component.html.Header;
 import com.vaadin.flow.router.PageTitle;
 import de.willy72.spdpg.components.appnav.AppNav;
 import de.willy72.spdpg.components.appnav.AppNavItem;
+import de.willy72.spdpg.icons.Teccicons;
 import de.willy72.spdpg.views.generator.GeneratorView;
 import de.willy72.spdpg.views.hilfe.HilfeView;
 import de.willy72.spdpg.views.impressum.ImpressumView;
@@ -44,7 +45,7 @@ public class MainLayout extends AppLayout {
     }
 
     private Component createDrawerContent() {
-        H2 appName = new H2("spdPG");
+        H2 appName = new H2("willy72.de");
         appName.addClassNames("app-name");
 
         com.vaadin.flow.component.html.Section section = new com.vaadin.flow.component.html.Section(appName,
@@ -59,9 +60,9 @@ public class MainLayout extends AppLayout {
         AppNav nav = new AppNav();
         nav.addClassNames("app-nav");
 
-        nav.addItem(new AppNavItem("Generator", GeneratorView.class, "la la-globe"));
-        nav.addItem(new AppNavItem("Hilfe", HilfeView.class, "la la-file"));
-        nav.addItem(new AppNavItem("Impressum", ImpressumView.class, "la la-file"));
+        nav.addItem(new AppNavItem("Generator", GeneratorView.class, Teccicons.GENERATOR.create()));
+        nav.addItem(new AppNavItem("Hilfe", HilfeView.class, Teccicons.HILFE.create()));
+        nav.addItem(new AppNavItem("Impressum", ImpressumView.class, Teccicons.IMPRESSUM.create()));
 
         return nav;
     }
